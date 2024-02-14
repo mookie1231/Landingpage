@@ -54,7 +54,7 @@
 
 .boxtwo {
     background-color: white;
-    
+    margin-top: 0px;
 }
 
 .features {
@@ -63,6 +63,7 @@
     align-items: center;
     font-size: 36px;
     font-weight: bold;
+    margin-top: 0px;
 
 }
 
@@ -71,7 +72,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 8px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     
@@ -80,13 +81,65 @@
 
 
 .featurebox {
-    
     width: 200px;
+}
+
+
+
+.quote {
+    padding-left: 144px;
+    padding-right: 144px;
+}
+
+.quoteone {
+
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-img {
+body {
+
+    margin: 0px;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+    color: white;
+
+}
+
+.cta2 {
+        margin: 0px;
+        padding: 0px;
+        height: 20px;
+}
+
+.ctabutton {
+    background-color: transparent;
+    border-color:white ;
+    color: white;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
     
-    width: 200px;
-    height: 200px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
